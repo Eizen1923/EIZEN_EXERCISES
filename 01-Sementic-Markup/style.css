@@ -1,0 +1,99 @@
+/* --- CSS Variables for styling consistency --- */
+:root {
+    --bg-color: #f0d67fd5;
+    --card-bg: #ffffff;
+    --text-color: #333333;
+    --heading-color: #391f0c;
+    --accent-color: #943e00;
+    --note-bg: #fff8e7;
+    --desc-color: #777777;
+}
+
+/* --- Base & Reset Styles --- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Flexbox on main to perfectly center the recipe card on the screen */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- Layout --- */
+.recipe-card {
+    max-width: 650px;
+    width: 100%;
+    background-color: var(--card-bg);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Typography --- */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: var(--heading-color);
+    margin: 0 0 10px 0;
+    font-size: 2.2rem;
+}
+
+.description {
+    font-style: italic;
+    color: var(--desc-color);
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+h2 {
+    color: var(--accent-color);
+    border-bottom: 2px solid var(--bg-color);
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* --- Lists --- */
+ul, ol {
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* --- Aside / Note Callout --- */
+.note {
+    background-color: var(--note-bg);
+    border-left: 4px solid var(--accent-color);
+    padding: 15px 20px;
+    margin-top: 25px;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.note strong {
+    color: var(--accent-color);
+}
