@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Wondering Photographer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+   
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+   
+    <header class="site-header">
+      <div class="container top-bar">
+        <div>
+          <p class="eyebrow">Travel Photography Blog</p>
+          <h1>The Wondering Photographer</h1>
+        </div>
+        <a class="basket-link" href="#basket" aria-label="Go to basket preview">
+          <img src="shopping.svg" alt="" aria-hidden="true" />
+          <span>Basket</span>
+        </a>
+      </div>
+      
+      <img class="divider" src="TheDivider.png" alt="" aria-hidden="true" />
+      
+      <nav class="container" aria-label="Primary navigation">
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    
+    <main id="main-content" class="container">
+      <section id="about" class="intro">
+        <h2>Accessible landscape prints and travel stories</h2>
+        <p>
+          Explore a small collection of travel photographs presented with clear
+          structure, strong contrast, meaningful alternative text, and keyboard-friendly controls.
+        </p>
+      </section>
+
+      <section id="gallery" aria-labelledby="gallery-title">
+        <h2 id="gallery-title">Featured photographs</h2>
+        <div class="card-grid">
+          <article class="photo-card">
+            <img src="OceanPhoto.jpg" alt="Snowy coastline in Greenland overlooking a calm blue sea at sunset." />
+            <div class="card-body">
+              <h3>Greenland Coast</h3>
+              <p>This was from a fabulous trip to the coast of Greenland with my family. The water was lovely- but very cold!</p>
+              <button type="button" aria-label="Add Greenland Coast print to basket">Add print to basket</button>
+            </div>
+          </article>
+
+          <article class="photo-card">
+            <img src="BridgePhoto.jpg" alt="A dramatic upward view of the Golden Gate Bridge painted in vivid orange light." />
+            <div class="card-body">
+              <h3>Golden Gate Bridge</h3>
+              <p>A picture of the Golden Gate Bridge. San Francisco is beautiful!</p>
+              <button type="button" aria-label="Add Golden Gate Bridge print to basket">Add print to basket</button>
+            </div>
+          </article>
+
+          <article class="photo-card">
+            <img src="ValleyPhoto.jpg" alt="A wide river valley in Greenland stretching between rugged mountain slopes." />
+            <div class="card-body">
+              <h3>Glacial River Valley</h3>
+              <p>Another great photo from Greenland. It's a river valley where a glacier used to be.</p>
+              <button type="button" aria-label="Add Glacial River Valley print to basket">Add print to basket</button>
+            </div>
+          </article>
+
+          <article class="photo-card">
+            <img src="WaterfallPhoto.jpg" alt="A tall waterfall flowing into a rocky pool surrounded by mossy cliffs." />
+            <div class="card-body">
+              <h3>Waterfall Study</h3>
+              <p>The waterfall made such a lovely sound. I could have fallen asleep!</p>
+              <button type="button" aria-label="Add Waterfall Study print to basket">Add print to basket</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    
+      <aside id="basket" class="basket-panel" aria-labelledby="basket-title">
+        <h2 id="basket-title">Basket preview</h2>
+        <p>The basket link is included as an accessible navigation target. Checkout functionality is not required for this assessment.</p>
+      </aside>
+    </main>
+
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-layout">
+        <p>&copy; 2018 The Wondering Photographer.</p>
+        <nav aria-label="Footer navigation">
+          <a href="#">Home</a>
+          <a href="#">Blog</a>
+          <a href="#">About me</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

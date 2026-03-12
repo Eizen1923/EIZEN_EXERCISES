@@ -1,0 +1,94 @@
+/* CSS Variables for easy color management */
+:root {
+    --primary-color: #272724;
+    --accent-color: #f0d67fd5; /* Futuristic Neon Green */
+    --text-color: #000000;
+    --bg-color: #f0d67fd5;
+    --card-bg: #ffffff;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 4px solid var(--accent-color);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Main Content Layout */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Section Card Styles */
+section {
+    background-color: var(--card-bg);
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: var(--primary-color);
+    border-left: 4px solid var(--accent-color);
+    padding-left: 15px;
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.05em;
+}
+
+/* Special styling for the 'Did you know?' callout */
+.trivia-box {
+    background: linear-gradient(135deg, #272724, #272724);
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 25px 30px;
+    margin: 40px 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.trivia-box h3 {
+    color: var(--accent-color);
+    margin-top: 0;
+    font-size: 1.4em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trivia-box p {
+    margin: 0;
+    color: #e0e0e0;
+}
+
+/* Utility Classes */
+.highlight {
+    font-weight: bold;
+    color: var(--primary-color);
+}
