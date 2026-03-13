@@ -5,7 +5,7 @@ This repository features my completed front-end projects for the Software Engine
 
 Exercise Folders
 
-- 01-sementic-markup - A recipe page built with strict HTML5 structural tags.
+- 01-sementic-markup - A recipe page built with strict HTML structural tags.
 
 - 02-css-styling - A single-page article designed with a separate stylesheet and CSS variables.
 
