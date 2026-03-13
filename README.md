@@ -9,9 +9,9 @@ Exercise Folders
 
 - 02-css-styling - A single-page article designed with a separate stylesheet and CSS variables.
 
-- 03-page-layout - A responsive image and video gallery powered by Flexbox and Grid.
+- 03-page-layout - A responsive image and video gallery.
 
-- 04-web-accessibility - A fully accessible blog layout featuring keyboard navigation and ARIA labels.
+- 04-web-accessibility - A fully accessible blog layout featuring keyboard navigations.
 
 
 Notes
